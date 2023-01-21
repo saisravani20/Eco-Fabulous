@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Fabulous</title>
+    <link rel="icon" href="/assets/logo1.png">
+    <link rel="stylesheet" href="../try-it-on/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- header section starts  -->
+
+<header class="header">
+
+    <a href="../home/home.html" class="logo"> <img src="../try-it-on/images/logo1.png" alt=""> </a>
+
+    
+
+    <div class="icons">
+        <div class="products">
+            <a href="/products/index.html">Products</a>
+          </div>
+          <div id = "menu-btn" class="menu">
+            <a href="#menu">Menu</a>
+          </div>
+        
+    </div>
+
+</header>
+
+<!-- navbar section  -->
+
+
+<nav class="navbar">
+    <div id="close-navbar" class="fas fa-times close"></div>
+    <div class="upper">
+      <a href="#row-1" class="close">Home</a>
+      <a href="#footer" class="close">Contacts</a>
+    </div>
+    <div class="lower">        
+      <div><a href="../shop/eyes.html">Eyes</a></div>       
+      <div><a href="../shop/face.html">Face</a></div>       
+      <div><a href="../shop/lips.html">Lips</a></div>       
+      <div><a href="../shop/lips.html">Nails</a></div>
+      <div><a href="../shop/beauty.html">Skin Care</a></div>
+    </div>
+
+  </nav>
+
+<!-- navbar section  -->
+
+<!-- header section ends -->
+
+    <div class="container">
+        <div class="row-1" id="row-1">
+            <div class="heading">
+                <h1>Take a picture and find your shade</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur officia beatae distinctio minus optio?</p>
+            </div>
+            <div class="content">
+                <div class="camera">
+                    <div class="video-wrap">
+                        <video id="video" playsinline autoplay></video>
+                    </div>
+                    <div class="controller">
+                        <button class="btn" id="snap">Capture</button>
+                    </div>
+                </div>
+                <div class="picture">
+                    <div class="snap">
+                        <canvas id="canvas" width = "400" height="400"></canvas>
+                    </div>    
+                    
+                    <div class="color-picker">            
+                        <button class="btn open-picker">Open Color picker</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="shades">
+                <img src="../try-it-on/images/shades.png" alt="" >
+            </div>
+            <div class="heading display ">
+                <h1>Found your skin shade !!</h1>
+            </div>
+            <p class="result"> Picked Color : <div class="color"></div></p>
+        </div>
+        <div class="loader">
+            <h1 data-text="Finding your best match...">Finding your best match...</h1>
+        </div>
+        <div class="row-3">
+            <!-- <h1>products will be here</h1> -->
+            <!-- <div class="match-products" id="prod-1"></div>
+            <div class="match-products" id="prod-2"></div>
+            <div class="match-products" id="prod-3"></div>
+            <div class="match-products" id="prod-4"></div> -->
+
+            <div class="card">
+                <img src="./images/lipstick.jpeg" class="product-image" alt="Product Image">
+                <div class="card-content">
+                  <h2 class="product-name">Product Name</h2>
+                  <h1 class="product-id"></h1>
+                  <button class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/lipstick.jpeg" class="product-image" alt="Product Image">
+                <div class="card-content">
+                  <h2 class="product-name">Product Name</h2>
+                  <h1 class="product-id"></h1>
+                  <button class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/lipstick.jpeg" class="product-image" alt="Product Image">
+                <div class="card-content">
+                  <h2 class="product-name">Product Name</h2>
+                  <h1 class="product-id"></h1>
+                  <button class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/lipstick.jpeg" class="product-image" alt="Product Image">
+                <div class="card-content">
+                  <h2 class="product-name">Product Name</h2>
+                  <h1 class="product-id"></h1>
+                  <button class="add-to-cart">Add to Cart</button>
+                </div>
+              </div>
+
+
+              
+        </div>
+    </div>
+    <!-- footer section starts  -->
+
+<section id="footer" class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a class="link" href="#home"> <i class="fas fa-angle-right"></i> home</a>
+            <a class="link" href="#shop"> <i class="fas fa-angle-right"></i> shop</a>
+            <a class="link" href="#about"> <i class="fas fa-angle-right"></i> about</a>
+            <a class="link" href="#arrivals"> <i class="fas fa-angle-right"></i> arrivals</a>
+            
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> my order </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> my favorite </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> my wishlist </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> private policy </a>
+            <a href="#" class="link"> <i class="fas fa-angle-right"></i> terms of use </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-phone"></i> 044-45671987 </p>
+            <p> <i class="fas fa-phone"></i> 9837627836 </p>
+            <p> <i class="fas fa-envelope"></i> ecofabulous@gmail.com </p>
+            <p> <i class="fas fa-map"></i> mumbai, india - 400104 </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+    
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+    <script src="../try-it-on/script.js"></script>
+</body>
+</html>

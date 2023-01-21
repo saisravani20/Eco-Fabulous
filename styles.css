@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffff;
+}
+
+.content{   
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    /* opacity: 0.8;  */
+    /* mix-blend-mode:lighten; */
+    
+
+/* }  */
+/* .content img{
+    width: 70%;
+    
+    
+}
+.back-video{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+} */ */
+
+   
+/* @media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        
+    }
+} */
+
+/* body{
+    background: #710c19;
+
+}
+section{
+
+    
+    width: 100%;
+    height: 100vh;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    
+    
+}
+
+section h2{
+    background: #fff;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 10vw;
+    color: #fff;
+    font-weight: 700;
+
+}
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner .blocks{
+    position: relative;
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    background: #fff;
+    animation: animate 2s ease-in-out forwards;
+}
+@keyframes animate 
+{
+   0%{
+    transform: translateZ(2000px);
+    
+   } 
+   100%{
+    transform: translateZ(0px);
+    
+   }
+} */
+
+
+
+/* chatgpt response */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+body{
+    background: #292922;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+    background: black;
+}
+
+@media (max-width: 768px) {
+    .hero{
+        height: 80vh;
+    }
+}
+
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #292922;
+}
+
+.content{   
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    /* opacity: 0.8;  */
+    mix-blend-mode:lighten;
+} 
+
+@media (max-width: 768px) {
+    .content {
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+.content img{
+    max-width: 100%;
+}
+
+.back-video{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}

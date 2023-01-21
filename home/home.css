@@ -1,0 +1,455 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/* body{
+    padding:0;
+    margin:0;
+    
+}
+.content{
+    scroll-snap-type: y mandatory;
+    max-width: 100%;
+    height: 100vh;
+}
+.parallax-image{
+    padding-top: 50%;
+    position:relative;
+    scroll-snap-align: start;
+    scroll-margin: 0px;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.parallax-image img{
+
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height: auto;
+      
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.content,
+.parallax-image {
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.parallax-image {
+    scroll-snap-align: start;
+    scroll-margin: 0px;
+}
+
+.parallax-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    
+    
+}
+body{
+    background: #292929;
+}
+body > *{
+    animation: animate 1s linear;
+}
+
+@keyframes animate {
+    0% {
+        /* transform: translateY(4rem); */
+        opacity: 0;
+   }
+}
+
+.hider::-webkit-scrollbar ,.content::-webkit-scrollbar {
+    display: none;
+}
+/* body{
+    min-height: 200vh;
+}
+.content{
+    max-width: 100vw;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+} */
+header{
+    
+   z-index: 199; 
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    mix-blend-mode:lighten;
+    /* background: #ffff; */
+}
+.logo{
+    width: 20%;
+    margin-left: 2%;
+    opacity: 0.8;
+    /* background-blend-mode: overlay; */
+    /* mix-blend-mode: lighten; */
+    
+    
+}
+.logo img{
+    height: 15vh;
+    width: 10vw;
+    mix-blend-mode: lighten;
+    
+}
+.header-right{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px;
+    z-index: 2000;
+    
+    
+}
+.products{
+    padding: 20px;
+    /* cursor: pointer; */
+}
+.products a{
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu{
+    padding: 20px;
+}
+.menu a{
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+}
+/* #menu-btn{
+    height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    background: #ffff;
+    color: black;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 0.3rem;
+    border-radius: 0.5rem;
+    z-index: 100;
+} */
+
+/* .parallax-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    scroll-snap-align: start;
+    scroll-margin: 0px;
+
+}
+
+.side1,.side2,.side3,.side4,.side5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.side1 img,.side2 img,.side3 img,.side4 img,.side5 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+#nails1{
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+
+}
+#nails2{
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+
+    transition: all 1s ease-out;
+} */
+
+
+/* .side1{
+    background: url(./images/beauty.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1000;
+}
+.side2{
+    background: url(./images/eyes.jpg);
+}
+.side3{
+    background: url(./images/face.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1000;
+}
+.side4{
+    background: url(./images/lips.jpg);
+}
+.side5{
+    background: url(./images/nails.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}  */
+
+.content,
+.container {
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.content,
+.hider {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    /* pointer-events: none; */
+    
+}
+
+.container {
+    scroll-snap-align: start;
+    scroll-margin: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hider {
+    transition: all 1500ms ease-in-out;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.text{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed; 
+    z-index: 200;   
+}
+.activeClass a{
+    color: white !important;
+}
+.text a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.25);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 4em;
+    z-index: 200;
+}
+.scroll img{
+    height: 3vh;
+    width: 3vw;
+}
+.hider {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    clip-path: polygon(40% 100%, 60% 100%, 80% 0, 100% 0, 100% 100%, 0 100%, 0 0, 20% 0);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bottom {
+    position: fixed;
+    bottom: 15%;
+    left: 90%;
+    z-index: 100;
+    transform: translateX(-50%);
+}
+
+.bottom button {
+    padding: 10px 20px;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    /* outline: black; */
+}
+
+.bottom button:hover {
+    background-color: black;
+    color: white;
+    outline: white;
+    cursor: pointer;
+}
+
+.top {
+    position: fixed;
+    top: 15%;
+    left: 90%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.top button {
+    z-index: 1000;
+    padding: 10px 20px;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    /* outline: black; */
+}
+
+.top button:hover {
+    background-color: black;
+    color: white;
+    outline: white;
+    cursor: pointer;
+}
+
+.middle {
+    position: fixed;
+    bottom: 5%;
+    right: 90%;
+    z-index: 100;
+    transform: translate(-50%, 20%);
+}
+
+.middle button {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: black;
+    font-size: xx-large;
+    /* outline: black; */
+}
+
+.middle button:hover {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    outline: white;
+    cursor: pointer;
+}
+
+    .navbar{
+        position: fixed;
+        top: -700px;;
+        left: 0;
+        right: 0;
+        z-index: 1010;
+        height: 100%;
+        width: 100%;
+        background: black;
+        opacity: 0.9;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        transition: all 1s ease-in;
+        transition: all 0.7s ease-out;
+
+        
+
+    }
+    .navbar a{
+        font-size: 2rem;
+        color: #ffff;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .active{
+        top: 0;
+    }
+    .upper{
+        height: 25%;
+        /* background-color: black; */
+        display: flex;
+        align-items:flex-end;
+        width: 30%;
+        justify-content: space-between;
+    }
+
+
+    .lower{
+        height: 75%;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        justify-content: space-around;
+        /* align-content: space-between; */
+        width: 75%;
+        flex-wrap: wrap;
+    }
+    .lower a{
+        font-size: 5rem;
+    }
+
+    /* .lower div:nth-child(4) { this is the lips div
+        order: 2;
+    }
+    .lower div:nth-child(5) { this is the nails div
+        order: 3;
+    } */
+
+    #close-navbar{
+        position: absolute;
+        top:2rem;
+        right:40rem;
+        height: 3rem;
+        width: 3rem;
+        line-height: 5rem;
+        background: #ffff;
+        color: black;
+        cursor: pointer;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
