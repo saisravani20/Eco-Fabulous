@@ -57,7 +57,7 @@
     <div><a href="../shop/face.html">Face</a></div>       
     <div><a href="../shop/lips.html">Lips</a></div>       
     <div><a href="../shop/nails.html">Nails</a></div>
-    <div><a href="../shop/beauty.html">Beauty Care</a></div>
+    <div><a href="../shop/beauty.html">Skin Care</a></div>
   </div>
 
 </nav>
@@ -79,7 +79,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="bottom reveal">
+        <div class="bottom reveal" id="products">
             <div class="card">
                 <img src="./images/eyes1.jpeg" alt="Product Image">
                 <div class="card-content">
@@ -668,7 +668,7 @@ document.querySelector("#menu-btn").onclick = () =>{
     navbar.classList.toggle('active');
 }
 
-document.querySelectorAll(".close").forEach(item => {
+document.querySelectorAll(".close-nav").forEach(item => {
   item.onclick = () => {
     console.log("clicked")
     navbar.classList.remove('active');
