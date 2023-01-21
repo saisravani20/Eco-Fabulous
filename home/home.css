@@ -102,7 +102,7 @@ body > *{
 } */
 header{
     
-   z-index: 199; 
+   z-index: 202; 
     position: fixed;
     height: 10%;
     width: 100%;
@@ -271,13 +271,14 @@ img {
 
 .text{
     width: 100vw;
-    height: 100vh;
+    height: 98vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: fixed; 
-    z-index: 200;   
+    z-index: 200;
+    margin-top: 20px;   
 }
 .activeClass a{
     color: white !important;
