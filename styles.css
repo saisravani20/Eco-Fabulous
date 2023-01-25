@@ -125,6 +125,75 @@ section h2{
 
 /* chatgpt response */
 
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+body{
+    background: #292922;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+    background: black;
+}
+
+@media (max-width: 768px) {
+    .hero{
+        height: 80vh;
+    }
+}
+
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #292922;
+}
+
+.content{   
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 0.8; 
+    mix-blend-mode:lighten;
+} 
+
+@media (max-width: 768px) {
+    .content {
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+.content img{
+    max-width: 100%;
+}
+
+.back-video{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+} */
+
+/* chat gpt response 2 */
+
 *{
     margin: 0;
     padding: 0;
@@ -137,6 +206,7 @@ html::-webkit-scrollbar {
 body{
     background: #292922;
 }
+
 .hero{
     width: 100%;
     height: 100vh;
@@ -189,4 +259,28 @@ body{
     top: 0;
     left: 0;
     object-fit: cover;
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .hero{
+        height: 100vh;
+    }
+}
+
+@media (min-width:1024px) and (max-width: 1440px) {
+    .hero{
+        height: 100vh;
+    }
+}
+
+@media (min-width:1440px) {
+    .hero{
+        height: 100vh;
+    }
+}
+
+@media (min-width:375px) and (max-width: 768px){
+    .hero{
+        height: 100vh;
+    }
 }
